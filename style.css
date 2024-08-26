@@ -12,17 +12,17 @@ body {
 }
 .gallery-list {
     list-style: none;
-    padding: 0;
+    padding: 60px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 40px;
-    margin-top: 60px;
+    margin: 0;
 }
 .navigation {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 30px;
 }
 .gallery-item {
     width: 350px;
@@ -33,10 +33,21 @@ img {
 .navigation-link {
     margin-top: 20px;
     height: 35px;
-    background-color: rgb(219, 219, 31);
     border: 0;
     border-radius: 5px;
+    background: rgb(97,73,152);
+    background: radial-gradient(circle, rgba(97,73,152,1) 0%, rgba(60,201,71,1) 58%, rgba(233,97,0,1) 100%);
 }
 .navigation-link:hover {
     font-weight: 700;
+    -webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 1px 7px 34px rgba(55,120,255,0); 
+    box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 1px 7px 34px rgba(55,120,255,0);
+}
+.gallery-img:hover {
+    -webkit-box-shadow: -2px -3px 11px 12px rgba(255,169,16,0.67); 
+    box-shadow: -2px -3px 11px 12px rgba(255,169,16,0.67);      
+}
+.gallery {
+    background: rgb(12,0,255);
+    background: linear-gradient(141deg, rgba(12,0,255,0.9192270658263305) 4%, rgba(28,222,197,1) 39%, rgba(207,38,38,1) 100%);
 }
